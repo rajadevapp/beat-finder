@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="body" x1="12" y1="27" x2="52" y2="55" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF4D8D"/>
+      <stop offset="1" stop-color="#8138FF"/>
+    </linearGradient>
+    <linearGradient id="top" x1="15" y1="13" x2="49" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF176"/>
+      <stop offset="1" stop-color="#FF9F43"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Drumsticks -->
+  <path d="M17 22 43 5" stroke="#63E6FF" stroke-width="5" stroke-linecap="round"/>
+  <path d="M47 22 25 5" stroke="#A3FF72" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Drum shell -->
+  <path d="M9 28v19c0 6 10 11 23 11s23-5 23-11V28" fill="url(#body)" stroke="#FFF" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Drum head -->
+  <ellipse cx="32" cy="28" rx="23" ry="10" fill="url(#top)" stroke="#FFF4C2" stroke-width="2.5"/>
+
+  <!-- Shell details -->
+  <path d="M10 29c3 6 13 9 22 9s19-3 22-9" fill="none" stroke="#FFE2F0" stroke-width="2"/>
+  <path d="M15 39v8m34-8v8" stroke="#FFD7EC" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Small rhythm sparkles -->
+  <path d="M5 15v6m-3-3h6M58 13v6m-3-3h6" stroke="#FFD84D" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
